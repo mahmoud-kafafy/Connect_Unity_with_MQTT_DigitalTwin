@@ -153,7 +153,7 @@ _client.UseApplicationMessageReceivedHandler(e =>
 ---
 
 ## 📡 Topics Used
-# You can change the names of topics, of course 
+# You can change the names of topics in the code
 * **Control Topic** → `unity/conveyor/control`
 
   * `fwd` → move forward
@@ -174,7 +174,7 @@ _client.UseApplicationMessageReceivedHandler(e =>
 ---
 
 
-## 🟢 Setup Steps
+## 🟢 All Setup Steps
 
 1. **Clone the repo**
 
