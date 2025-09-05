@@ -51,7 +51,7 @@ you mostly will find at `esp_idf\Espressif\frameworks\esp-idf-v5.5`
 ./export.sh
 ```
 
-#### On **Windows (PowerShell)**:
+#### On **Windows (cmd of esp-idf)**:
 
 ```powershell
 .\export.bat
