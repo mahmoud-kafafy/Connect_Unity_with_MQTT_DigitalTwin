@@ -97,9 +97,7 @@ You must download it and paste into `mqtt_ir_sensor.c`.
 
 #### Option 2: Export from HiveMQ Cloud
 
-* Log in to [HiveMQ Cloud Console](https://console.hivemq.cloud)
-* Go to **Cluster Details → Connection Information**
-* Copy the **CA Certificate** shown
+*Copy the content in certification.pem as in code you will find in ir_example.c
 
 ⚠️ If you don’t add this certificate, ESP32 will fail with:
 
