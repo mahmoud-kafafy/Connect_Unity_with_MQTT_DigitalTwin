@@ -179,7 +179,7 @@ _client.UseApplicationMessageReceivedHandler(e =>
 1. **Clone the repo**
 
    ```bash
-   https://github.com/mahmoud-kafafy/Connect_Unity_with_MQTT_DIigitalTwin.git
+   git clone https://github.com/mahmoud-kafafy/Connect_Unity_with_MQTT_DigitalTwin.git
    ```
    Or download it manually
 
@@ -198,7 +198,7 @@ _client.UseApplicationMessageReceivedHandler(e =>
 3. **Add GameObjects & Attach Scripts**
 
    * Create a **Conveyor Belt** GameObject → attach `ConveyorBelt.cs`.
-   * Create a **GameObject** (e.g., `MQTTClient`) → attach `MqttConveyorController.cs`.
+   * Create a **GameObject** (e.g., `MQTTClient`) → attach `HiveMQ.cs`.
 
      * In the Inspector, configure broker `host`, `port`, `username`, and `password`.
    * Create an empty GameObject called **Dispatcher** → attach `UnityMainThreadDispatcher.cs`.
