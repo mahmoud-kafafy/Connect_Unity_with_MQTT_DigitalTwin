@@ -43,7 +43,7 @@ Follow these steps step-by-step. Don’t skip anything!
 1. On your computer, create a new folder (for example: `MQTT_Unity_Project`).  
 2. Open that folder.  
 3. **Right-click inside the folder** → choose **“Open Terminal”**.
-```markdown
+```
    ![Conveyor Demo](images/1.png)
    ``` 
 5. Type this command to clone the repo into the folder:  
