@@ -21,6 +21,7 @@ It’s like a **digital twin**: you can send commands to the conveyor belt in Un
 ├── Conveyer_Belt_MQTT.unitypackage   # Conveyor belt Unity package
 ├── Unity_codes/                      # Unity scripts & logic
 ├── connect_ESP32_with_Unity/         # ESP32 + MQTT connection code
+├── images                            # Reference images
 └── README.md                         # You’re reading this 😄
 ```
 
@@ -30,7 +31,6 @@ It’s like a **digital twin**: you can send commands to the conveyor belt in Un
 - 🕹️ Unity (package is tested on unity editor ver. 6000 )  
 - ⚡ ESP32 board  
 - ☁️ A free [HiveMQ Cloud](https://www.hivemq.com/mqtt-cloud-broker/) account  
-
 ---
 
 ## 🚀 How to Run
@@ -52,13 +52,21 @@ Follow these steps step-by-step. Don’t skip anything!
 
 ### 🎮 Part 2: Open Unity & Import Package
 1. Open **Unity Hub**.  
-2. Click **“New Project”** → choose **3D Core** → name it something like `ConveyorMQTT`.  
-3. Once Unity loads your empty project:  
-   - Go to the **top menu bar** → `Assets → Import Package → Custom Package...`  
+2. Click **“New Project”** → choose **3D Core** → name it something like `ConveyorMQTT`.
+![Conveyor Demo](images/2.png)
+![Conveyor Demo](images/3.png)
+![Conveyor Demo](images/4.png)
+4. Once Unity loads your empty project:  
+   - Go to the **top menu bar** → `Assets → Import Package → Custom Package...`
+
+![Conveyor Demo](images/5.png)
+
    - Select the file: `Conveyer_Belt_MQTT.unitypackage` (found in the repo you cloned).  
-   - Unity will show a list of assets → click **Import**.  
-4. Now you’ll see the conveyor belt assets in your project.  
-5. Open the provided **scene** from the `Unity_codes/` folder.  
+   - Unity will show a list of assets → click **Import**.
+![Conveyor Demo](images/6.png)
+
+5. Now you’ll see the conveyor belt assets in your project.  
+![Conveyor Demo](images/7.png)
 
 ---
 ### 📂 Part 3: Next Steps
