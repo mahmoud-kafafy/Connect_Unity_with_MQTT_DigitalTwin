@@ -42,8 +42,11 @@ Follow these steps step-by-step. Don’t skip anything!
 ### 🖥️ Part 1: Prepare a Folder & Clone the Repo
 1. On your computer, create a new folder (for example: `MQTT_Unity_Project`).  
 2. Open that folder.  
-3. **Right-click inside the folder** → choose **“Open Terminal”**.  
-4. Type this command to clone the repo into the folder:  
+3. **Right-click inside the folder** → choose **“Open Terminal”**.
+```markdown
+   ![Conveyor Demo](images/1.png)
+   ``` 
+5. Type this command to clone the repo into the folder:  
    ```bash
    git clone https://github.com/mahmoud-kafafy/Connect_Unity_with_MQTT_DigitalTwin.git
    
